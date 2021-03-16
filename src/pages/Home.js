@@ -24,17 +24,21 @@ const Home = ({ onClick }) => {
 
   return (
     <div>
-      <ResultContainer>
-        {results?.map(item => {
-          const show = JSON.parse(item);
+      {results?.length ? (
+        <ResultContainer>
+          {results?.map(item => {
+            const show = JSON.parse(item);
 
-          return (
-            <StyledLink key={show.id} onClick={() => onClick(show)} to="/show">
-              <Thumbnail alt={show?.name} src={show?.image?.medium} />
-            </StyledLink>
-          );
-        })}
-      </ResultContainer>
+            return (
+              <StyledLink key={show.id} onClick={() => onClick(show)} to="/show">
+                <Thumbnail alt={show?.name} src={show?.image?.medium} />
+              </StyledLink>
+            );
+          })}
+        </ResultContainer>
+      ) : (
+        <p>You don't have any shows in your watchlist</p>
+      )}
     </div>
   );
 };
