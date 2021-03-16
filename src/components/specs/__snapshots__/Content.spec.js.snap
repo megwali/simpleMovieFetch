@@ -8,9 +8,9 @@ exports[`Content renders 1`] = `
       path="/"
     >
       <div>
-        <div
-          className="sc-dlfnbm FXKNV"
-        />
+        <p>
+          You don't have any shows in your watchlist
+        </p>
       </div>
     </Route>
     <Route

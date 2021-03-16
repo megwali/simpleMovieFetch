@@ -33,9 +33,9 @@ Array [
     className="sc-jrAGrp dwfXyL"
   >
     <div>
-      <div
-        className="sc-dlfnbm FXKNV"
-      />
+      <p>
+        You don't have any shows in your watchlist
+      </p>
     </div>
   </div>,
 ]

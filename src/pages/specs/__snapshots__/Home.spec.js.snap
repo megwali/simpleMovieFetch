@@ -2,8 +2,8 @@
 
 exports[`Home renders 1`] = `
 <div>
-  <div
-    className="sc-dlfnbm FXKNV"
-  />
+  <p>
+    You don't have any shows in your watchlist
+  </p>
 </div>
 `;
