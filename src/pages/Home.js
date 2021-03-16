@@ -20,7 +20,7 @@ const ResultContainer = styled.div`
 
 
 const Home = ({ onClick }) => {
-  const results = Object.values(localStorage).filter(item => item?.id);
+  const results = Object.values(localStorage);
 
   return (
     <div>
