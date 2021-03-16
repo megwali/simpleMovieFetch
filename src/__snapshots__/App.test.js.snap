@@ -6,7 +6,7 @@ Array [
     Home
   </h2>,
   <div
-    className="sc-bdfBwQ OiFCT"
+    className="sc-jrAGrp dwfXyL"
   >
     <a
       aria-current="page"
@@ -30,12 +30,12 @@ Array [
     </a>
   </div>,
   <div
-    className="sc-bdfBwQ OiFCT"
+    className="sc-jrAGrp dwfXyL"
   >
     <div>
-      <h2>
-        Homie
-      </h2>
+      <div
+        className="sc-dlfnbm FXKNV"
+      />
     </div>
   </div>,
 ]

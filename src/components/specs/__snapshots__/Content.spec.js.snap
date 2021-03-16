@@ -8,27 +8,59 @@ exports[`Content renders 1`] = `
       path="/"
     >
       <div>
-        <h2>
-          Homie
-        </h2>
+        <div
+          className="sc-dlfnbm FXKNV"
+        />
       </div>
     </Route>
     <Route
       path="/search"
     >
-      <div>
-        <h2>
-          Searchie
-        </h2>
+      <div
+        className="sc-eCssSg jLJXbU"
+      >
+        <input
+          className="sc-jSgupP ctZjyU"
+          onChange={[Function]}
+          type="search"
+        />
+        <div
+          className="sc-hKgILt gbuHto"
+        />
       </div>
     </Route>
     <Route
       path="/show"
     >
       <div>
-        <h2>
-          Showie
-        </h2>
+        <div
+          className="sc-fubCfw bDJXPO"
+        >
+          <img
+            className="sc-pFZIQ iPfVUh"
+          />
+          <div>
+            <p />
+            <h4 />
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": undefined,
+                }
+              }
+            />
+          </div>
+        </div>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "padding": "0.5rem",
+            }
+          }
+        >
+          Add to watchlist
+        </button>
       </div>
     </Route>
   </Switch>

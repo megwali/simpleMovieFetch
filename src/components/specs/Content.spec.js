@@ -1,6 +1,6 @@
 import { create } from 'react-test-renderer';
 import Content from '../Content';
-jest.mock('react-router-dom', () => ({ Route: 'Route', Switch: 'Switch' }));
+jest.mock('react-router-dom', () => ({ Link: 'Link', Route: 'Route', Switch: 'Switch' }));
 jest.mock('../StyledComponents', () => ({ Container: 'Container' }));
 
 

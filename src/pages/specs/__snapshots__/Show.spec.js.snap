@@ -2,8 +2,33 @@
 
 exports[`Show renders 1`] = `
 <div>
-  <h2>
-    Showie
-  </h2>
+  <div
+    className="sc-bdfBwQ gqHBDx"
+  >
+    <img
+      className="sc-gsTCUz cVyJTd"
+    />
+    <div>
+      <p />
+      <h4 />
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": undefined,
+          }
+        }
+      />
+    </div>
+  </div>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": "0.5rem",
+      }
+    }
+  >
+    Add to watchlist
+  </button>
 </div>
 `;
