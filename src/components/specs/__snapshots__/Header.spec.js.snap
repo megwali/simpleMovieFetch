@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders 1`] = `
+<Switch>
+  <Route
+    exact={true}
+    path="/"
+  >
+    <h2>
+      Home
+    </h2>
+  </Route>
+  <Route
+    path="/search"
+  >
+    <h2>
+      Search
+    </h2>
+  </Route>
+  <Route
+    path="/show"
+  >
+    <h2>
+      Show
+    </h2>
+  </Route>
+</Switch>
+`;

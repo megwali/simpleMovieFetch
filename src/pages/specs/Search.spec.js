@@ -1,10 +1,9 @@
 import { create } from 'react-test-renderer';
-import App from './App';
+import Search from '../Search';
 
-
-describe('App', () => {
+describe('Search', () => {
   it('renders', () => {
-    const component = create(<App />);
+    const component = create(<Search />);
     expect(component.toJSON()).toMatchSnapshot();
-  })
+  });
 });

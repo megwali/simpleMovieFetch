@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search renders 1`] = `
+<div
+  className="sc-gsTCUz hlZFEK"
+>
+  <input
+    className="sc-dlfnbm RbZbw"
+    onChange={[Function]}
+    type="search"
+  />
+  <div
+    className="sc-bdfBwQ iWUBct"
+  />
+</div>
+`;

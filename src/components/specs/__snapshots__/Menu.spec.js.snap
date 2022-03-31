@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders 1`] = `
+<Container>
+  <NavLink
+    activeStyle={
+      Object {
+        "color": "blue",
+      }
+    }
+    exact={true}
+    to="/"
+  >
+    Home
+  </NavLink>
+  <NavLink
+    activeStyle={
+      Object {
+        "color": "blue",
+      }
+    }
+    isActive={[Function]}
+    to="/search"
+  >
+    Search
+  </NavLink>
+</Container>
+`;

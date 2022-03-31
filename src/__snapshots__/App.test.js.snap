@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+Array [
+  <h2>
+    Home
+  </h2>,
+  <div
+    className="sc-jrAGrp dwfXyL"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "blue",
+        }
+      }
+    >
+      Home
+    </a>
+    <a
+      aria-current={null}
+      href="/search"
+      onClick={[Function]}
+    >
+      Search
+    </a>
+  </div>,
+  <div
+    className="sc-jrAGrp dwfXyL"
+  >
+    <div>
+      <p>
+        You don't have any shows in your watchlist
+      </p>
+    </div>
+  </div>,
+]
+`;

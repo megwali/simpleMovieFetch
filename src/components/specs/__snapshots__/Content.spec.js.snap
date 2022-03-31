@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content renders 1`] = `
+<Container>
+  <Switch>
+    <Route
+      exact={true}
+      path="/"
+    >
+      <div>
+        <p>
+          You don't have any shows in your watchlist
+        </p>
+      </div>
+    </Route>
+    <Route
+      path="/search"
+    >
+      <div
+        className="sc-eCssSg jLJXbU"
+      >
+        <input
+          className="sc-jSgupP ctZjyU"
+          onChange={[Function]}
+          type="search"
+        />
+        <div
+          className="sc-hKgILt gbuHto"
+        />
+      </div>
+    </Route>
+    <Route
+      path="/show"
+    >
+      <div>
+        <div
+          className="sc-fubCfw bDJXPO"
+        >
+          <img
+            className="sc-pFZIQ iPfVUh"
+          />
+          <div>
+            <p />
+            <h4 />
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": undefined,
+                }
+              }
+            />
+          </div>
+        </div>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "padding": "0.5rem",
+            }
+          }
+        >
+          Add to watchlist
+        </button>
+      </div>
+    </Route>
+  </Switch>
+</Container>
+`;

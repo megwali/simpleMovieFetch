@@ -1,10 +1,9 @@
 import { create } from 'react-test-renderer';
-import App from './App';
+import Home from '../Home';
 
-
-describe('App', () => {
+describe('Home', () => {
   it('renders', () => {
-    const component = create(<App />);
+    const component = create(<Home />);
     expect(component.toJSON()).toMatchSnapshot();
-  })
+  });
 });

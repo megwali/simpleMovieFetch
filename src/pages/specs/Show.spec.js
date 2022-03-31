@@ -1,10 +1,9 @@
 import { create } from 'react-test-renderer';
-import App from './App';
+import Show from '../Show';
 
-
-describe('App', () => {
+describe('Show', () => {
   it('renders', () => {
-    const component = create(<App />);
+    const component = create(<Show />);
     expect(component.toJSON()).toMatchSnapshot();
-  })
+  });
 });
